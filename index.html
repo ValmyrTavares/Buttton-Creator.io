@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Button Create</title>
+</head>
+<body>
+    <section class="button-creator">
+        <form action="" id="controles">
+            <label for="texto">Texto</label>
+            <input type="text" name="texto" id='texto'>
+            <label for="color">Color</label>
+            <input type="color" name="color" id='color'>
+            <label for="backgroundColor">Background Color</label>
+            <input type="color" name="backgroundColor" id='backgroundColor'>
+            <label for="height">Height</label>
+            <input type="range" name="height" id='height' min="0" max="200">
+            <label for="width">Width</label>
+            <input type="range" name="width" id='width' min="0" max="200">
+            <label for="border">Border</label>
+            <input type="text" name="border" id='border'>
+            <label for="borderRadius">Border Radius</label>
+            <input type="range" name="borderRadius" id='borderRadius'>
+            <select name="fontFamily" id="">
+                <option value="Arial" name="fontFamily">Arial</option>
+                <option value="Georgia" name="fontFamily">Georgia</option>
+                <option value="Impact" name="fontFamily">Impact</option>
+                <option value="monospace" >monospace</option>
+            </select>
+            <label for="fontSize">Font Size</label>
+            <input type="number" name="fontSize" id='fontSize'>
+        </form>
+        <section>
+            <button class="btn">Clique</button>
+            <pre>
+                <code class="css">
+                        
+                </code>
+            </pre>
+        </section>
+    </section>
+    <script type="module" src="./JS/script.js"></script>
+</body>
+</html>
